@@ -1,0 +1,188 @@
+/************************************************
+ * Site-wide
+ ************************************************/
+BODY, TD, P, .bodyCopy { 
+  color: #444E5B;
+  font-family: Verdana,Verdana,Verdana,Swiss,SunSans-Regular;
+  font-size: 12px;
+}
+
+A:link, .matchLink {
+	color: #444e5b;
+	text-decoration: underline;
+}
+
+A:visited {
+	color: #FFFFFF;
+	text-decoration: underline;
+}
+
+A:active {
+	color: #FFFFFF;
+	text-decoration: underline;
+}
+
+A:hover {
+	color: #FFFFFF;
+	text-decoration: underline;
+}
+
+SUP {
+	font-size: 10px;
+}
+
+OL { 
+	margin-top: 4px;
+	margin-bottom: 4px;
+}
+
+UL {
+	margin-top: 4px;
+	margin-bottom: 4px;
+	list-style-type: square;
+}
+
+LI { 
+	padding: 1px 0px 1px 0px;
+}
+
+/* default color for image borders
+   NS4 needs color instead of border-color */
+IMG {
+	border-color: #333333;
+	color: #333333;					
+}
+
+IMG.alignLeft {
+	margin: 3px 5px 4px 0px;
+}
+
+.noUnderline {
+	text-decoration: none;
+}
+
+/* need to repeat font info for NS4.7 */
+.heading {
+  font-family: verdana, arial, helvetica, sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	padding: 15px 0px 0px 0px;
+	color: #0F395F;
+}
+
+.headtitle {
+  font-family: verdana, arial, helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+
+/* need to repeat font info for NS4.7 */
+.smallText {
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 10px;
+}
+
+/* need to repeat font info for NS4.7 */
+.bigText {
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 13px;
+}
+
+.breadCrumb {
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 10px;
+	color: #6B6969;
+}
+
+.breadCrumb A:link, .breadCrumb A:visited,
+.breadCrumb A:active,.breadCrumb A:hover {
+	color: #6B6969;
+}
+
+/************************************************
+ * Footer
+ ************************************************/
+/* need to repeat font info for NS4.7 */
+.footer {
+	font-family: verdana, arial, helvetica, sans-serif;
+	font-size: 10px;
+	color: #999999;
+	margin: 40px 0px 0px 155px;
+	padding: 20px 0px 10px 20px;
+}
+ 
+/************************************************
+ * Forms
+ ************************************************/
+/* need to repeat font info for NS4.7 */
+ INPUT, TEXTAREA, SELECT, OPTION { 
+  color: #000000;
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 11px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #333333;
+} 
+
+/************************************************
+ * Homepage
+ ************************************************/
+.homeSidebar {
+	padding: 0px 7px 7px 7px;
+}
+
+.homeSidebarWithImage {
+	padding: 1px 7px 7px 0px;
+}
+
+/* need to repeat font info for NS4.7 */
+.homeSidebarHeading {
+  font-family: verdana, arial, helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #333333;
+}
+
+/* need to repeat font info for NS4.7 */
+.homeSidebarEntry {
+  font-family: verdana, arial, helvetica, sans-serif;
+	font-size: 11px;
+	padding: 10px 0px 0px 0px;
+}
+
+.homeFeature {
+	padding: 3px 10px 10px 10px;
+}
+
+/************************************************
+ * Side Navigation
+ ************************************************/
+/* need to repeat font info for NS4.7 */
+.sidenavHeading {
+  font-family: verdana, arial, helvetica, sans-serif;
+	font-size: 11px;
+	color: #395E8E;
+	padding: 5px 4px 4px 4px;
+	font-weight: bold;
+}
+
+/* need to repeat font info for NS4.7 */
+.sidenavEntry {
+  font-family: verdana, arial, helvetica, sans-serif;
+	font-size: 11px;
+	padding: 4px 4px 4px 0px;
+	font-weight: bold;
+}
+
+.sidenavEntry A:link, .sidenavEntry A:visited, 
+.sidenavEntry A:active {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+.sidenavEntry A:hover {
+	color: #FFFFFF;
+	text-decoration: underline;
+}
+
